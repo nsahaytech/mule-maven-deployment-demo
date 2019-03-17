@@ -13,7 +13,7 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
 		<mule.version>3.9.1</mule.version>
-    	<mule.tools.version>1.7</mule.tools.version>
+    	<mule.tools.version>2.1.1</mule.tools.version>
 	</properties>
 	
 
@@ -22,7 +22,7 @@
 		<plugins>
 			<plugin>
 				<groupId>org.mule.tools.maven</groupId>
-				<artifactId>mule-app-maven-plugin</artifactId>
+				<artifactId>mule-maven-plugin</artifactId>
 				<version>${mule.tools.version}</version>
 				<extensions>true</extensions>
 				<configuration>
